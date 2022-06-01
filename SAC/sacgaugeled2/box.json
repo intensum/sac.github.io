@@ -4,7 +4,7 @@
 	"name": "Demo Gauge",
 	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/icon.png",
+	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/icon.png",
 	"vendor": "Demo",
 	"eula": "EULA",
 	"license": "1.0",
@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "com-demo-gauge",
-			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-demo-gauge-sps",
-			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box_sps.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-demo-box-bps",
-			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box_bps.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
