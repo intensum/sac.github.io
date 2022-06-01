@@ -9,8 +9,8 @@
         </style>       
     `;
 
-    const pubnubjs = "http://bo41:81/SAC/sacgaugeled/box/pubnub.4.21.7.min.js";
-    const gaugejs = "http://bo41:81/SAC/sacgaugeled/box/t.js";
+    const pubnubjs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/pubnub.4.21.7.min.js";
+    const gaugejs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/t.js";
 
     let googleloaderjs = document.createElement("script");
     googleloaderjs.src = "https://www.gstatic.com/charts/loader.js";
