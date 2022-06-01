@@ -4,7 +4,7 @@
 	"name": "Gauge LED @ Great Intensum",
 	"description": "A Gauge LED demo @ Intensum",
 	"newInstancePrefix": "Gauge",
-	"icon": "http://localhost/SAC/sacgaugeled/box/icon.png",
+	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/icon.png",
 	"vendor": "INTENSUM Luxembourg",
 	"eula": "EULA",
 	"license": "2.0",
@@ -12,13 +12,13 @@
 		{
 			"kind": "main",
 			"tag": "com-fd-gaugeled",
-			"url": "http://localhost/SAC/sacgaugeled/box/box.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},{
 			"kind": "builder",
 			"tag": "com-fd-gaugeled-bps",
-			"url": "http://localhost/SAC/sacgaugeled/box/box_bps.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
