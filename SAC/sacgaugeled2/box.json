@@ -1,61 +1,59 @@
 {
-	"id": "com.fd.gaugeled",
+	"id": "com.demo.gauge",
 	"version": "1.0.0",
-	"name": "Gauge LED @ Great Intensum",
-	"description": "A Gauge LED demo @ Intensum",
+	"name": "Demo Gauge",
+	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/icon.png",
-	"vendor": "INTENSUM Luxembourg",
+	"icon": "https://example.demo/box/icon.png",
+	"vendor": "Demo",
 	"eula": "EULA",
-	"license": "2.0",
+	"license": "1.0",
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-fd-gaugeled",
-			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/box.js",
+			"tag": "com-demo-gauge",
+			"url": "https://example.demo/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
-		},{
+		},
+		{
+			"kind": "styling",
+			"tag": "com-demo-gauge-sps",
+			"url": "https://example.demo/box/box_sps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
 			"kind": "builder",
-			"tag": "com-fd-gaugeled-bps",
-			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled2/box/box_bps.js",
+			"tag": "com-demo-box-bps",
+			"url": "https://example.demo/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
 	],
 	"properties": {
 		"value": {
-			"type": "string",
+			"type": "number",
 			"description": "Gauge value",
-			"default": "50"
+			"default": "0"
 		},
-		"title": {
+		"info": {
 			"type": "string",
-			"description": "Gauge title",
+			"description": "Gauge info",
 			"default": ""
 		},
-		"subtitle": {
+		"color": {
 			"type": "string",
-			"description": "Gauge subtitle",
-			"default": ""
-		},
-		"min": {
-			"type": "integer",
-			"description": "Gauge min",
-			"default": 0
-		},
-		"max": {
-			"type": "integer",
-			"description": "Gauge max",
-			"default": 10
+			"description": "Text Color info",
+			"default": "#3498db"
 		},
 		"width": {
 			"type": "integer",
-			"default": 50
+			"default": 100
 		},
 		"height": {
 			"type": "integer",
-			"default": 50
+			"default": 100
 		}
 	},
 	"methods": {
@@ -64,14 +62,24 @@
 			"parameters": [
 				{
 					"name": "newValue",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newInfo",
 					"type": "string",
-					"description": "Gauge Value"
+					"description": "Gauge info"
+				},
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "Text Color info"
 				}
 			],
-			"body": "this.value = newValue;"
+			"body": "this.value = newValue; this.info = newInfo; this.color = newColor;"
 		},
 		"getValue": {
-			"returnType": "string",
+			"returnType": "number",
 			"description": "Returns the Gauge value.",
 			"body": "return this.value;"
 		}
@@ -82,3 +90,5 @@
 		}
 	}
 }
+
+ 
