@@ -35,9 +35,10 @@ var getScriptPromisify = (src) => {
   
 		const chart = echarts.init(this._root)
 		var data = [];
-		for (let i = 0; i <= 360; i++) {
-		  let t = (i / 180) * Math.PI;
-		  let r = Math.sin(2 * t) * Math.cos(2 * t);
+
+		for (var i = 0; i <= 360; i++) {
+		  var t = (i / 180) * Math.PI;
+		  var r = Math.sin(2 * t) * Math.cos(2 * t);
 		  data.push([r, i]);
 		}
 		const option = {
