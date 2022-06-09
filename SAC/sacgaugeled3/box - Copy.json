@@ -54,6 +54,26 @@
 		"height": {
 			"type": "integer",
 			"default": 100
+		},
+		"valeur1": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 10
+		},
+		"valeur2": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 10
+		},
+		"valeur3": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 10
+		},
+		"valeur4": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 10
 		}
 	},
 	"methods": {
@@ -74,9 +94,29 @@
 					"name": "newColor",
 					"type": "string",
 					"description": "Text Color info"
+				},
+				{
+					"name": "newValeur1",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newValeur2",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newValeur3",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newValeur4",
+					"type": "number",
+					"description": "Gauge value"
 				}
 			],
-			"body": "this.value = newValue; this.info = newInfo; this.color = newColor;"
+			"body": "this.value = newValue; this.info = newInfo; this.color = newColor; this.valeur1 = newValeur1; this.valeur2 = newValeur2; this.valeur3 = newValeur3; this.valeur4 = newValeur4;"
 		},
 		"getValue": {
 			"returnType": "number",
