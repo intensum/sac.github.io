@@ -58,22 +58,22 @@
 		"valeur1": {
 			"type": "number",
 			"description": "Gauge value",
-			"default": 10
+			"default": 500
 		},
 		"valeur2": {
 			"type": "number",
 			"description": "Gauge value",
-			"default": 10
+			"default": 500
 		},
 		"valeur3": {
 			"type": "number",
 			"description": "Gauge value",
-			"default": 10
+			"default": 450
 		},
 		"valeur4": {
 			"type": "number",
 			"description": "Gauge value",
-			"default": 10
+			"default": -90
 		}
 	},
 	"methods": {
