@@ -1,0 +1,33 @@
+{
+  "eula": "Lasch",
+  "vendor": "SAP",
+  "license": "Intensum",
+  "id": "com.sap.sac.sample.echartsline.prepared",
+  "version": "1.0.1",
+  "name": "ECharts Line Prepared",
+  "newInstancePrefix": "EChartLine Prepared",
+  "description": "A sample custom widget wrapped EChart Line Prepared",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-echartsline-prepared",
+      "url": "https://intensum.github.io/sac.github.io/SAC/echartsLine/prepared/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 420
+		}
+  },
+  "methods": {
+  },
+  "events": {
+  }
+}
