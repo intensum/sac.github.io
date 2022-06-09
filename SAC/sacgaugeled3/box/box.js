@@ -73,10 +73,11 @@
 			this._props = {};
 		}
 		
-		render(val, info, color, valeur1, valeur2, valeur3, valeur4) {
-			var val1 = val * 0.01;
-//			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0 - 90);
-			var x = this.svg_circle_arc_path(valeur1, valeur2, valeur3, valeur4, val1 * 180.0 - 90);
+//		render(val, info, color, valeur1, valeur2, valeur3, valeur4) {
+	render(val, info, color) {
+		var val1 = val * 0.01;
+			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0 - 90);
+//			var x = this.svg_circle_arc_path(valeur1, valeur2, valeur3, valeur4, val1 * 180.0 - 90);
 			var rounded = Math.round( val * 10 ) / 10;
 
 			
@@ -132,8 +133,9 @@
 			if ("valeur4" in changedProperties) {
 				this.$value = changedProperties["valeur4"];
 			}
-			this.render(this.$value, this.$info, this.$color, this.$valeur1, this.$valeur2, this.$valeur3, this.$valeur4);
-		}
+//			this.render(this.$value, this.$info, this.$color, this.$valeur1, this.$valeur2, this.$valeur3, this.$valeur4);
+			this.render(this.$value, this.$info, this.$color);
+}
 	}
 	
 	customElements.define("com-demo-gauge-lasch1", Box);
