@@ -1,0 +1,46 @@
+{
+	"eula": "",
+	"vendor": "SAP",
+	"license": "",
+	"id": "com.sap.sac.sample.echarts.life_expectancy2",
+	"version": "1.0.0",
+	"name": "ECharts LifeExpectancy2",
+	"newInstancePrefix": "EChartLifeExpectancy2",
+	"description": "A sample custom widget wrapped EChart LifeExpectancy",
+	"webcomponents": [
+	  {
+		"kind": "main",
+		"tag": "com-sap-sample-echarts-life_expectancy2",
+		"url": "https://intensum.github.io/sac.github.io/SAC/echarts/life_expectancy2/main.js",
+		"integrity": "",
+		"ignoreIntegrity": true
+	  }
+	],
+	"properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 420
+		}
+	},
+	"methods": {
+		  "render": {
+			  "description": "Render",
+			  "parameters": [
+				  {
+					  "name": "resultSet",
+					  "type": "any",
+					  "description": "The json"
+				  }
+			  ]
+		  }
+	},
+	"events": {
+  
+	}
+  }
+
+-----
