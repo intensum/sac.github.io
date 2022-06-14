@@ -4,7 +4,7 @@
  "name": "Box",
  "description": "A box",
  "newInstancePrefix": "Box",
- "icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/icon.png",
+ "icon": "https://intensum.github.io/sac.github.io/SAC/box/icon.png",
  "vendor": "Intensum",
  "eula": "",
  "license": "",
@@ -12,21 +12,21 @@
  {
  "kind": "main",
  "tag": "com-sap-sample-box",
- "url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box.js",
+ "url": "https://intensum.github.io/sac.github.io/SAC/box/box.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "styling",
  "tag": "com-sap-sample-box-styling",
- "url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box_styling.js",
+ "url": "https://intensum.github.io/sac.github.io/SAC/box/box_styling.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "builder",
  "tag": "com-sap-sample-box-builder",
- "url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled/box/box_builder.js",
+ "url": "https://intensum.github.io/sac.github.io/SAC/box/box_builder.js",
  "integrity": "",
  "ignoreIntegrity": true
  }
