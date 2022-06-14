@@ -1,5 +1,5 @@
 {
- "id": "com.sap.sample.box",
+ "id": "com.sample.box",
  "version": "1.0.0",
  "name": "Box",
  "description": "A box",
@@ -11,21 +11,21 @@
  "webcomponents": [
  {
  "kind": "main",
- "tag": "com-sap-sample-box",
+ "tag": "com-sample-box",
  "url": "https://intensum.github.io/sac.github.io/SAC/box/box.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "styling",
- "tag": "com-sap-sample-box-styling",
+ "tag": "com-sample-box-styling",
  "url": "https://intensum.github.io/sac.github.io/SAC/box/box_styling.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "builder",
- "tag": "com-sap-sample-box-builder",
+ "tag": "com-sample-box-builder",
  "url": "https://intensum.github.io/sac.github.io/SAC/box/box_builder.js",
  "integrity": "",
  "ignoreIntegrity": true
