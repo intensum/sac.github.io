@@ -2,7 +2,7 @@
 	"eula": "",
 	"vendor": "SAP",
 	"license": "",
-	"id": "com.sap.sac.sample.echarts.life_expectancy2",
+	"id": "com.sap.sample.echarts.life_expectancy2",
 	"version": "1.0.0",
 	"name": "ECharts LifeExpectancy2",
 	"newInstancePrefix": "EChartLifeExpectancy2",
@@ -42,5 +42,3 @@
   
 	}
   }
-
------
