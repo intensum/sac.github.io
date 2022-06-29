@@ -1,0 +1,33 @@
+{
+  "eula": "",
+  "vendor": "SAP",
+  "license": "",
+  "id": "com.sap.sac.sample.echarts.prepared2",
+  "version": "1.0.0",
+  "name": "ECharts Prepared2",
+  "newInstancePrefix": "EChartPrepared",
+  "description": "A sample custom widget wrapped EChart Prepared",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-echarts-prepared2",
+      "url": "https://intensum.github.io/sac.github.io/SAC/echarts/prepared2/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 420
+		}
+  },
+  "methods": {
+  },
+  "events": {
+  }
+}
