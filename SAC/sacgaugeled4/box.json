@@ -54,7 +54,23 @@
 		"height": {
 			"type": "integer",
 			"default": 100
-		}
+		},
+		"dataBindings": {
+			"myDataBinding": {
+			  "feeds": [
+				{
+				  "id": "dimensions",
+				  "description": "Dimensions",
+				  "type": "dimension"
+				},
+				{
+				  "id": "measures",
+				  "description": "Measures",
+				  "type": "mainStructureMember"
+				}
+			  ]
+			}
+		  }
 	},
 	"methods": {
 		"setValue": {
@@ -88,21 +104,5 @@
 		"onClick": {
 			"description": "Called when the user clicks the Box."
 		}
-	},
-	"dataBindings": {
-		"myDataBinding": {
-		  "feeds": [
-			{
-			  "id": "dimensions",
-			  "description": "Dimensions",
-			  "type": "dimension"
-			},
-			{
-			  "id": "measures",
-			  "description": "Measures",
-			  "type": "mainStructureMember"
-			}
-		  ]
-		}
-	  }
+	}
 }
