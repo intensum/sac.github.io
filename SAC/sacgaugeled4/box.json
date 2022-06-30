@@ -1,0 +1,177 @@
+{
+	"id": "com.demo.gauge.lasch2",
+	"version": "1.0.0",
+	"name": "Demo Gauge lasch 2",
+	"description": "A gauge demo lasch 2",
+	"newInstancePrefix": "Gauge",
+	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/icon.png",
+	"vendor": "Demo",
+	"eula": "EULA",
+	"license": "1.0",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-demo-gauge-lasch2",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/box.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-demo-gauge-sps-lasch2",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/box_sps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-demo-box-bps-lasch2",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/box_bps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"value": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 0
+		},
+		"info": {
+			"type": "string",
+			"description": "Gauge info",
+			"default": ""
+		},
+		"color": {
+			"type": "string",
+			"description": "Text Color info",
+			"default": "#3498db"
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		}
+	},
+	"dataBindings": {
+		"myDataBinding": {
+		  "feeds": [
+			{
+			  "id": "dimensions",
+			  "description": "Dimensions",
+			  "type": "dimension"
+			},
+			{
+			  "id": "measures",
+			  "description": "Measures",
+			  "type": "mainStructureMember"
+			}
+		  ]
+		}
+	  }
+	"methods": {
+		"setValue": {
+			"description": "Sets the Gauge value.",
+			"parameters": [
+				{
+					"name": "newValue",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newInfo",
+					"type": "string",
+					"description": "Gauge info"
+				},
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "Text Color info"
+				}
+			],
+			"body": "this.value = newValue; this.info = newInfo; this.color = newColor;"
+		},
+		"getValue": {
+			"returnType": "number",
+			"description": "Returns the Gauge value.",
+			"body": "return this.value;"
+		},
+		"OpenSelectModeDialogs": {
+			"parameters": [],
+			"body": "this.dataBindings.getDataBindings('myDataSource').openSelectModelDialog();",
+			"returnType": "DimensionInfo[]"
+		},
+		"getDimensions": {
+			"parameters": [],
+			"body": "this.dataBindings.getDataBindings('myDataSource').getDataSource().getDimensions();",
+			"returnType": "DimensionInfo[]"
+		},
+		"getMeasures": {
+			"parameters": [],
+			"body": "this.dataBindings.getDataBindings('myDataSource').getDataSource().getMeasures();",
+			"returnType": "DimensionInfo[]"
+		},
+		"addDimension": {
+			"parameters": [
+				{
+					"name": "dimensionId",
+					"type": "string" 
+				}
+			]
+		},
+		"addMeasure": {
+			"parameters": [
+				{
+					"name": "measureId",
+					"type": "string" 
+				}
+			]
+		},
+		"removeDimension": {
+			"parameters": [
+				{
+					"name": "dimensionId",
+					"type": "string" 
+				}
+			]
+		},
+		"getDimensionsOnFeed": {
+			"parameters": [],
+			"returnType": "string[]"
+		},
+		"getMeasuresOnFeed": {
+			"parameters": [],
+			"returnType": "string[]"
+		},
+		"getDataSource": {
+			"parameters": [],
+			"body": "return this.dataBindings.getDataBinding('myDataSource').getDataSource();",
+			"returnType": "DataSource"
+		},
+		"setModel": {
+			"parameters": [
+			{
+				"name": "modelId",
+				"type": "string"
+			}
+		],
+			"body": "return this.dataBindings.getDataBinding('myDataSource').setModel(modelId);"
+		},
+		"getDataSource2": {
+			"parameters": [{
+			"name": "dataSourceName",
+			"type": "string"
+			}],
+			"body": "return this.dataBindings.getDataBinding(dataSourceName).getDataSource();",
+			"returnType": "DataSource"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
