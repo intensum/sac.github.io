@@ -43,5 +43,5 @@
 		}
 	}
 
-customElements.define("com-demo-box-sps-lasch1", BoxSps);
+customElements.define("com-demo-box-sps-lasch2", BoxSps);
 })();

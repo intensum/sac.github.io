@@ -8,6 +8,10 @@
 					<tr>
 						<td>Color</td>
 						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
+						<td>Measures</td>
+						<td><input id="bps_measures" type="text" size="10" maxlength="10"></td>
+						<td>Dimensions</td>
+						<td><input id="bps_dimensions" type="text" size="10" maxlength="10"></td>
 					</tr>
 				</table>
 				<input type="submit" style="display:none;">
@@ -49,5 +53,5 @@
 		}
 	}
 
-	customElements.define("com-demo-box-bps-lasch1", BoxBps);
+	customElements.define("com-demo-box-bps-lasch2", BoxBps);
 })();

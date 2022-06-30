@@ -11,21 +11,21 @@
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-demo-gauge",
+			"tag": "com-demo-gauge-lasch2",
 			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
-			"tag": "com-demo-gauge-sps",
+			"tag": "com-demo-gauge-sps-lasch2",
 			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
-			"tag": "com-demo-box-bps",
+			"tag": "com-demo-box-bps-lasch2",
 			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled4/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
