@@ -9,6 +9,14 @@
 						<td>Color</td>
 						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
 					</tr>
+					<tr>
+						<td>Measures</td>
+						<td><input id="bps_measures" type="text" size="10" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td>Dimensions</td>
+						<td><input id="bps_dimensions" type="text" size="10" maxlength="10"></td>
+					</tr>
 				</table>
 				<input type="submit" style="display:none;">
 			</fieldset>
