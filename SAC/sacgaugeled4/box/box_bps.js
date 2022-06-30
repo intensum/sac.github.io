@@ -10,11 +10,11 @@
 						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>Measures</td>
+						<td>Measures 2:</td>
 						<td><input id="bps_measures" type="text" size="10" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>Dimensions</td>
+						<td>Dimensions 2:</td>
 						<td><input id="bps_dimensions" type="text" size="10" maxlength="10"></td>
 					</tr>
 				</table>
