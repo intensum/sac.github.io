@@ -8,8 +8,6 @@
 					<tr>
 						<td>Color</td>
 						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
-					
-
 					</tr>
 				</table>
 				<input type="submit" style="display:none;">
