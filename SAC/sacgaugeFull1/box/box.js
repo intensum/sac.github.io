@@ -31,6 +31,7 @@
     };
 
     function drawChart(divstr, text, value, firsttime) {
+        console.log("calling drawChart function");
         if (firsttime === 0) {
 
             const uuid = PubNub.generateUUID();
@@ -41,6 +42,7 @@
             });
 
             var foundIndex = ArData.findIndex(x => x.id == text);
+            console.log("foundIndex:" + foundIndex);
             if (foundIndex === -1) {
 
                 var data = google.visualization.arrayToDataTable([
