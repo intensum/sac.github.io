@@ -232,9 +232,9 @@
                     var foundIndex = Ar.findIndex(x => x.id == id);
                     console.log("foundIndex: " + foundIndex);
 
-                    if (foundIndex !== -1) {
+//                    if (foundIndex !== -1) {
                         drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection);
-                    }
+//                    }
                 }
             }
         }
