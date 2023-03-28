@@ -71,7 +71,7 @@
 			"body": "this.value = newValue;"
 		},
 		"getValue": {
-			"returnType": "string",
+			"returnType": "number",
 			"description": "Returns the Gauge value.",
 			"body": "return this.value;"
 		}
