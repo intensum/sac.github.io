@@ -1,6 +1,6 @@
 {
 	"id": "com.fd.gaugefull",
-	"version": "1.0.0",
+	"version": "1.0.6",
 	"name": "Gauge LED",
 	"description": "A Gauge LED FULL demo",
 	"newInstancePrefix": "Gauge",
