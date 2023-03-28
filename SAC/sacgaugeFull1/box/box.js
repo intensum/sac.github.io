@@ -42,7 +42,7 @@
             });
 
             var foundIndex = ArData.findIndex(x => x.id == text);
-            console.log("foundIndex:" + foundIndex);
+            console.log("foundIndex est egale a:" + foundIndex);
             if (foundIndex === -1) {
 
                 var data = google.visualization.arrayToDataTable([
