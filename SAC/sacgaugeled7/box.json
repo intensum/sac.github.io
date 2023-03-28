@@ -1,6 +1,6 @@
 {
-	"id": "com.demo.gauge",
-	"version": "1.0.0",
+	"id": "com.demo.gauge.1.0.2",
+	"version": "1.0.2",
 	"name": "Demo Gauge",
 	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
