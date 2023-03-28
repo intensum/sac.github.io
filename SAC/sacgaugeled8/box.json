@@ -86,7 +86,7 @@
 					"description": "level1 value"
 				}
 			],
-			"body": "this.value = newValue; this.info = newInfo; this.color = newColor; this.level1 = newlevel1;"
+			"body": "this.value = 33; this.info = newInfo; this.color = newColor; this.level1 = newlevel1;"
 		},
 		"getValue": {
 			"returnType": "number",
