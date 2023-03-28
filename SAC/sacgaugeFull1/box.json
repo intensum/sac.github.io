@@ -1,7 +1,7 @@
 {
 	"id": "com.fd.gaugefull",
 	"version": "1.0.6",
-	"name": "Gauge LED",
+	"name": "TEST TESTGauge LED",
 	"description": "A Gauge LED FULL demo",
 	"newInstancePrefix": "Gauge",
 	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/icon.png",
