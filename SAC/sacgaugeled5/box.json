@@ -27,7 +27,7 @@
 		"value": {
 			"type": "number",
 			"description": "Gauge value",
-			"default": ""
+			"default": "0"
 		},
 		"title": {
 			"type": "string",
