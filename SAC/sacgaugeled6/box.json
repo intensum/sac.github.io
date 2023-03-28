@@ -1,0 +1,132 @@
+{
+	"id": "com.demo.gauge.lasch2",
+	"version": "1.0.2",
+	"name": "Demo Gauge 1.0.2",
+	"description": "A gauge demo 1.0.2",
+	"newInstancePrefix": "Gauge",
+	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled6/box/icon.png",
+	"vendor": "Demo",
+	"eula": "EULA",
+	"license": "1.0",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-demo-gauge-lasch2",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled6/box/box.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-demo-gauge-sps-lasch2",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled6/box/box_sps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-demo-gauge-bps-lasch2",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled6/box/box_bps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"value": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 0
+		},
+		"info": {
+			"type": "string",
+			"description": "Gauge info",
+			"default": ""
+		},
+		"color": {
+			"type": "string",
+			"description": "Text Color info",
+			"default": "#3498db"
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		},
+		"valeur1": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 500
+		},
+		"valeur2": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 500
+		},
+		"valeur3": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 450
+		},
+		"valeur4": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": -90
+		}
+	},
+	"methods": {
+		"setValue": {
+			"description": "Sets the Gauge value.",
+			"parameters": [
+				{
+					"name": "newValue",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newInfo",
+					"type": "string",
+					"description": "Gauge info"
+				},
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "Text Color info"
+				},
+				{
+					"name": "newValeur1",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newValeur2",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newValeur3",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newValeur4",
+					"type": "number",
+					"description": "Gauge value"
+				}
+			],
+			"body": "this.value = newValue; this.info = newInfo; this.color = newColor; this.valeur1 = newValeur1; this.valeur2 = newValeur2; this.valeur3 = newValeur3; this.valeur4 = newValeur4;"
+		},
+		"getValue": {
+			"returnType": "number",
+			"description": "Returns the Gauge value.",
+			"body": "return this.value;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
