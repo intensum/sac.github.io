@@ -64,14 +64,14 @@
 			"parameters": [
 				{
 					"name": "newValue",
-					"type": "string",
+					"type": "number",
 					"description": "Gauge Value"
 				}
 			],
 			"body": "this.value = newValue;"
 		},
 		"getValue": {
-			"returnType": "string",
+			"returnType": "number",
 			"description": "Returns the Gauge value.",
 			"body": "return this.value;"
 		}
