@@ -9,8 +9,8 @@
         </style>       
     `;
 
-    //const pubnubjs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/pubnub.4.21.7.min.js";
-    const gaugejs  = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/t.js";
+    const pubnubjs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/pubnub.4.21.7.min.js";
+    const gaugejs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/t.js";
 
     let googleloaderjs = document.createElement("script");
     googleloaderjs.src = "https://www.gstatic.com/charts/loader.js";
@@ -31,7 +31,6 @@
     };
 
     function drawChart(divstr, text, value, firsttime) {
-        console.log("calling drawChart function");
         if (firsttime === 0) {
 
             const uuid = PubNub.generateUUID();
@@ -42,7 +41,6 @@
             });
 
             var foundIndex = ArData.findIndex(x => x.id == text);
-            console.log("foundIndex est egale a:" + foundIndex);
             if (foundIndex === -1) {
 
                 var data = google.visualization.arrayToDataTable([
@@ -198,20 +196,19 @@
                     'max': this.$max
                 });
 
-            //    loadScript(pubnubjs, function() {
-                    console.log("Loading...");
+                loadScript(pubnubjs, function() {
+                    console.log("Load:" + pubnubjs);
 
                     loadScript(gaugejs, function() {
                         console.log("Load:" + gaugejs);
                         Draw(Ar, that._firstConnection);
                         that._firstConnection = 1;
                     });
-                //});
+                });
 
             } else {
                 var id = this.$value.split("|")[0];
                 console.log("id: " + id);
-                console.log("lasch 1");
 
                 var value = this.$value.split("|")[1];
                 console.log("value:" + value);
@@ -227,19 +224,19 @@
 
                 var max = this.$max;
                 console.log("max: " + max);
-                console.log("max2: " + max);
+
 
                 if (value !== "") {
                     var foundIndex = Ar.findIndex(x => x.id == id);
                     console.log("foundIndex: " + foundIndex);
 
-//                    if (foundIndex !== -1) {
+                    if (foundIndex !== -1) {
                         drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection);
-//                    }
+                    }
                 }
             }
         }
     }
 
-    customElements.define("com-fd-gaugefull", Box);
+    customElements.define("com-fd-gaugeled", Box);
 })();
