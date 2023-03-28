@@ -120,5 +120,5 @@
 		}
 	}
 	
-	customElements.define("com-gauge-lasch5", Box);
+	customElements.define("com-gauge-lasch", Box);
 })();

@@ -1,23 +1,23 @@
 {
-	"id": "com.gauge.lasch5",
+	"id": "com.gauge.lasch",
 	"version": "1.0.5",
 	"name": "Gauge LED",
 	"description": "A Gauge LED demo 1.0.5",
 	"newInstancePrefix": "Gauge",
 	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled5/box/icon.png",
-	"vendor": "Laurent Schiltz",
+	"vendor": "Laurent.Schiltz",
 	"eula": "EULA",
 	"license": "2.0",
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-fd-gaugeled",
+			"tag": "com-gauge-lasch",
 			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled5/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},{
 			"kind": "builder",
-			"tag": "com-fd-gaugeled-bps",
+			"tag": "com-gauge-lasch-bps",
 			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled5/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true

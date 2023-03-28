@@ -82,5 +82,5 @@
 		}		
 	}
 
-	customElements.define("com-fd-gaugeled-bps", BoxBps);
+	customElements.define("com-gauge-lasch-bps", BoxBps);
 })();
