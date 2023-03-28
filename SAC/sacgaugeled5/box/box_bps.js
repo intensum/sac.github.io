@@ -3,23 +3,19 @@
 	template.innerHTML = `
 		<form id="form">
 			<fieldset>
-				<legend>Gauge Properties</legend>
+				<legend>Color Properties</legend>
 				<table>
 					<tr>
-						<td>Title</td>
-						<td><input id="bps_title" type="text" size="50" maxlength="20"></td>
+						<td>Color</td>
+						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>Sub Title</td>
-						<td><input id="bps_subtitle" type="text" size="50" maxlength="20"></td>
+						<td>Measures 2:</td>
+						<td><input id="bps_measures" type="text" size="10" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>min</td>
-						<td><input id="bps_min" type="text" size="50" maxlength="10"></td>
-					</tr>
-					<tr>
-						<td>max</td>
-						<td><input id="bps_max" type="text" size="50" maxlength="10"></td>
+						<td>Dimensions 2:</td>
+						<td><input id="bps_dimensions" type="text" size="10" maxlength="10"></td>
 					</tr>
 				</table>
 				<input type="submit" style="display:none;">
@@ -46,40 +42,19 @@
 			this.dispatchEvent(new CustomEvent("propertiesChanged", {
 					detail: {
 						properties: {
-							title: this.title,
-							subtitle: this.subtitle,
-							min: this.min,
-							max: this.max
+							color: this.color
 						}
 					}
 			}));
 		}
 
-		set title(title) {
-			this._shadowRoot.getElementById("bps_title").value = title;
-		}		
-		set subtitle(subtitle) {
-			this._shadowRoot.getElementById("bps_subtitle").value = subtitle;
-		}		
-		set min(min) {
-			this._shadowRoot.getElementById("bps_min").value = min;
-		}		
-		set max(max) {
-			this._shadowRoot.getElementById("bps_max").value = max;
+		set color(newColor) {
+			this._shadowRoot.getElementById("bps_color").value = newColor;
 		}
-		//////////////		
-		get title() {
-			return this._shadowRoot.getElementById("bps_title").value;
-		}		
-		get subtitle() {
-			return this._shadowRoot.getElementById("bps_subtitle").value;
-		}		
-		get min() {
-			return this._shadowRoot.getElementById("bps_min").value;
-		}		
-		get max() {
-			return this._shadowRoot.getElementById("bps_max").value;
-		}		
+
+		get color() {
+			return this._shadowRoot.getElementById("bps_color").value;
+		}
 	}
 
 	customElements.define("com-gauge-lasch-bps", BoxBps);
