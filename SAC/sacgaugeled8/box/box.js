@@ -107,7 +107,7 @@
 
 		onCustomWidgetAfterUpdate(changedProperties) {
 			if ("value" in changedProperties) {
-				this.$value = changedProperties["value"];
+				this.$value = 12; //changedProperties["value"];
 			}
 			
 			if ("info" in changedProperties) {
