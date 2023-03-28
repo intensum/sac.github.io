@@ -75,8 +75,8 @@
 		
 		render(val, info, color, level1) {
 			var val1 = val * 0.01;
-//			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0 - 90);
-			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0);
+			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0 - 90);
+//			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0);
 
 			var rounded = Math.round( val * 10 ) / 10;
 			var level11 = level1;
@@ -107,7 +107,7 @@
 
 		onCustomWidgetAfterUpdate(changedProperties) {
 			if ("value" in changedProperties) {
-				this.$value = 12; //changedProperties["value"];
+				this.$value = changedProperties["value"];
 			}
 			
 			if ("info" in changedProperties) {
@@ -122,8 +122,8 @@
 				this.$level1 = changedProperties["level1"];
 			}
 
-//			this.render(this.$value, this.$info, this.$color, this.$level1);
-			this.render(13, this.$info, this.$color, this.$level1);
+			this.render(this.$value, this.$info, this.$color, this.$level1);
+//			this.render(13, this.$info, this.$color, this.$level1);
 		}
 	}
 	
