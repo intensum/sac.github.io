@@ -25,9 +25,9 @@
 	],
 	"properties": {
 		"value": {
-			"type": "number",
+			"type": "string",
 			"description": "Gauge value",
-			"default": 0
+			"default": ""
 		},
 		"title": {
 			"type": "string",
@@ -64,14 +64,14 @@
 			"parameters": [
 				{
 					"name": "newValue",
-					"type": "number",
+					"type": "string",
 					"description": "Gauge Value"
 				}
 			],
 			"body": "this.value = newValue;"
 		},
 		"getValue": {
-			"returnType": "number",
+			"returnType": "string",
 			"description": "Returns the Gauge value.",
 			"body": "return this.value;"
 		}
