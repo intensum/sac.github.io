@@ -92,7 +92,13 @@
 			"returnType": "number",
 			"description": "Returns the Gauge value.",
 			"body": "return this.value;"
+		},
+		"getValueColorBuilder": {
+			"returnType": "string",
+			"description": "Returns the Color Builder value.",
+			"body": "return this.color;"
 		}
+
 	},
 	"events": {
 		"onClick": {
