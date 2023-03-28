@@ -1,0 +1,104 @@
+{
+	"id": "com.demo.gauge8",
+	"version": "1.0.3",
+	"name": "Demo Gauge",
+	"description": "A gauge demo",
+	"newInstancePrefix": "Gauge",
+	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled8/box/icon.png",
+	"vendor": "Demo",
+	"eula": "EULA",
+	"license": "1.0",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-demo-gauge7",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled8/box/box.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-demo-gauge7-sps",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled7/box/box_sps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-demo-gauge7-bps",
+			"url": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled7/box/box_bps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"value": {
+			"type": "number",
+			"description": "Gauge value",
+			"default": 0
+		},
+		"info": {
+			"type": "string",
+			"description": "Gauge info",
+			"default": ""
+		},
+		"color": {
+			"type": "string",
+			"description": "Text Color info",
+			"default": "#3498db"
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		},
+		"level1": {
+			"type": "number",
+			"description": "Gauge level1 value",
+			"default": 10
+		}
+	},
+	"methods": {
+		"setValue": {
+			"description": "Sets the Gauge value.",
+			"parameters": [
+				{
+					"name": "newValue",
+					"type": "number",
+					"description": "Gauge value"
+				},
+				{
+					"name": "newInfo",
+					"type": "string",
+					"description": "Gauge info"
+				},
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "Text Color info"
+				},
+				{
+					"name": "newlevel1",
+					"type": "number",
+					"description": "level1 value"
+				}
+			],
+			"body": "this.value = newValue; this.info = newInfo; this.color = newColor; this.level1 = newlevel1;"
+		},
+		"getValue": {
+			"returnType": "number",
+			"description": "Returns the Gauge value.",
+			"body": "return this.value;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
+
+ 
