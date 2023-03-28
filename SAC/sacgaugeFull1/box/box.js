@@ -198,15 +198,15 @@
                     'max': this.$max
                 });
 
-                loadScript(pubnubjs, function() {
-                    console.log("Load:" + pubnubjs);
+            //    loadScript(pubnubjs, function() {
+                    console.log("Loading...");
 
                     loadScript(gaugejs, function() {
                         console.log("Load:" + gaugejs);
                         Draw(Ar, that._firstConnection);
                         that._firstConnection = 1;
                     });
-                });
+                //});
 
             } else {
                 var id = this.$value.split("|")[0];
