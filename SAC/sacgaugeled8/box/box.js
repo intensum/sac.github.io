@@ -122,7 +122,8 @@
 				this.$level1 = changedProperties["level1"];
 			}
 
-			this.render(this.$value, this.$info, this.$color, this.$level1);
+//			this.render(this.$value, this.$info, this.$color, this.$level1);
+			this.render(13, this.$info, this.$color, this.$level1);
 		}
 	}
 	
