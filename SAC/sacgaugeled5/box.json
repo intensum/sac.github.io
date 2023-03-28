@@ -5,7 +5,7 @@
 	"description": "A Gauge LED demo 1.0.5",
 	"newInstancePrefix": "Gauge",
 	"icon": "https://intensum.github.io/sac.github.io/SAC/sacgaugeled5/box/icon.png",
-	"vendor": "FD",
+	"vendor": "Laurent Schiltz",
 	"eula": "EULA",
 	"license": "2.0",
 	"webcomponents": [
