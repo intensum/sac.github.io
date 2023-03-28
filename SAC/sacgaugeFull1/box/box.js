@@ -227,7 +227,7 @@
 
                 var max = this.$max;
                 console.log("max: " + max);
-
+                console.log("max2: " + max);
 
                 if (value !== "") {
                     var foundIndex = Ar.findIndex(x => x.id == id);
