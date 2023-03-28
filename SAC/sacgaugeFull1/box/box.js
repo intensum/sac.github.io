@@ -211,6 +211,7 @@
             } else {
                 var id = this.$value.split("|")[0];
                 console.log("id: " + id);
+                console.log("lasch 1");
 
                 var value = this.$value.split("|")[1];
                 console.log("value:" + value);
