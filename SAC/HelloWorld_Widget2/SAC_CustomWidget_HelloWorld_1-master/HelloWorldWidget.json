@@ -12,7 +12,7 @@
         {
 			"kind": "main",
 			"tag": "com-sap-sample-helloworld1",
-            "url": "https://intensum.github.io/sac.github.io/SACHelloWorld_Widget2/SAC_CustomWidget_HelloWorld_1-master/webcomponent.js",
+            "url": "https://intensum.github.io/sac.github.io/SAC/HelloWorld_Widget2/SAC_CustomWidget_HelloWorld_1-master/webcomponent.js",
             "integrity": "",
             "ignoreIntegrity" : true
         }
