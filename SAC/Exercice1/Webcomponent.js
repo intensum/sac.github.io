@@ -27,6 +27,4 @@
           var row = table.getSelection()[0].row;
           alert('You selected ' + data.getValue(row, 0));
         });
-      }
-    
-)();
+ })();
