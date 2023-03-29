@@ -4,7 +4,7 @@
         <h1>Hello Mini World</h1>
     `;
 
-    customElements.define('com-sap-sample-exercice2', class Exercice2 extends HTMLElement {
+    customElements.define('com-sap-sample-helloworld1', class HelloWorld1 extends HTMLElement {
 
 
 		constructor() {
