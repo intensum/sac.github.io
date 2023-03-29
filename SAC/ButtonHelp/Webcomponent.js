@@ -23,7 +23,7 @@
 
         fireChanged() {
             console.log("OnClick Triggered");     
-            
+            console.log("re 1 OnClick Triggered");
         }        
         
     }
