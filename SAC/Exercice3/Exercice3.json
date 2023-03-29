@@ -11,7 +11,7 @@
 	"webcomponents": [
         {
 			"kind": "main",
-			"tag": "com-sap-sample-helloworld1",
+			"tag": "com-sap-sample-exercice3",
             "url": "https://intensum.github.io/sac.github.io/SAC/Exercice3/webcomponent.js",
             "integrity": "",
             "ignoreIntegrity" : true
