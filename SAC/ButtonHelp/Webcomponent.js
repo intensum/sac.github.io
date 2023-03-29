@@ -16,7 +16,7 @@
             this.addEventListener("click", event => {
             var event = new Event("o"onClick");
             this.fireChanged(); 
-            this.fireChanged();           
+          //  this.fireChanged();           
             this.dispatchEvent(event);
             });           
         }
@@ -25,10 +25,10 @@
             console.log("OnClick Triggered");     
             
         }  
-        fireChanged2() {
-            console.log("lasch is there");     
-            
-        }        
+//        fireChanged2() {
+//            console.log("lasch is there");     
+//            
+//        }        
         
     }
 
