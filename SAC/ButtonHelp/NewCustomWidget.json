@@ -1,18 +1,18 @@
 {
-	"name": "mycustomwidget",
+	"name": "mycustomwidget1",
 	"description": "Hello World",
-	"newInstancePrefix": "mycustomwidget",
+	"newInstancePrefix": "mycustomwidget1",
 	"eula": "",
-	"vendor": "PranavKandpal",
+	"vendor": "essai",
 	"license": "",
-	"id": "mycustomwidget",
+	"id": "mycustomwidget1",
 	"version": "1.0.1",
 	"icon": "",
 	"webcomponents": [
 		{
 			"kind": "main",
 			"tag": "custom-button",
-			"url": "https://intensum.github.io/sac.github.io/SAC/ButtonHelp/Webcomponent.js",
+			"url": "https://kandpalpranav.github.io/CustomWidget/Webcomponent.js", //"https://intensum.github.io/sac.github.io/SAC/ButtonHelp/Webcomponent.js",
 			"integrity": ""	,
 			"ignoreIntegrity": true
 			
