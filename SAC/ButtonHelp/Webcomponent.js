@@ -14,19 +14,14 @@
             let shadowRoot = this.attachShadow({mode: "open"});
             shadowRoot.appendChild(tmpl.content.cloneNode(true));
             this.addEventListener("click", event => {
-            var event = new Event("o"onClick");
-            this.fireChanged(); 
-            this.fireChanged();           
+            var event = new Event("onClick");
+            this.fireChanged();          
             this.dispatchEvent(event);
             });           
         }
 
         fireChanged() {
             console.log("OnClick Triggered");     
-            
-        }  
-        fireChanged2() {
-            console.log("lasch is there");     
             
         }        
         
