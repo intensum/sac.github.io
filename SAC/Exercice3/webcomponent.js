@@ -1,10 +1,6 @@
 (function()  {
     let tmpl = document.createElement('template');
-    tmpl.innerHTML = `<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <div id="gauge_div" style="width:280px; height: 140px;"></div>
- <input type="button" value="Go Faster" onclick="changeTemp(1)" />
- <input type="button" value="Slow down" onclick="changeTemp(-1)" />
- <h1>Hello Mini World</h1>`;
+    tmpl.innerHTML = `<h1>Hello Mini World</h1>`;
 
     customElements.define('com-sap-sample-exercice3', class exercice3 extends HTMLElement {
 

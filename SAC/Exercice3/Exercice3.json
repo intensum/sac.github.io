@@ -1,6 +1,6 @@
 {
 	"id": "com.sap.sample.exercice3",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"name": "exercice 3",
 	"description": "The first step in creating a minamilistic KPI tile",
 	"newInstancePrefix": "exercice3",
