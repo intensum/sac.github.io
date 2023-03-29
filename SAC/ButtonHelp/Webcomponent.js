@@ -17,7 +17,7 @@
             var event = new Event("onClick");
             this.fireChanged();          
             this.dispatchEvent(event);
-            });           
+            });            
         }
 
         fireChanged() {
