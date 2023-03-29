@@ -16,7 +16,7 @@
             this.addEventListener("click", event => {
             var event = new Event("onClick");
             this.fireChanged();
-            this.fireChanged();         
+            this.fireChanged2();         
             this.dispatchEvent(event);
             });            
         }
@@ -25,7 +25,9 @@
             console.log("OnClick Triggered");     
             console.log("re 1 OnClick Triggered");
         }        
-        
+        fireChanged2() {   
+            console.log("re 2 OnClick Triggered");
+        } 
     }
 
     customElements.define('custom-button', PerformanceHelp);
