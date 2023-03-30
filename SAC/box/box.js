@@ -18,6 +18,7 @@
  shadowRoot.appendChild(template.content.cloneNode(true));
  this.addEventListener("click", event => {
  var event = new Event("onClick");
+ console.log("ceci est l event de lasch");
  this.dispatchEvent(event);
  });
  this._props = {};
