@@ -4,7 +4,7 @@
     <h1>Hello Super Mini World 2</h1>
     google.charts.load('current', {'packages':['gauge']});
             google.charts.setOnLoadCallback(drawGauge);
-         
+          
             var gaugeOptions = {min: 0, max: 280, yellowFrom: 200, yellowTo: 250,
               redFrom: 250, redTo: 280, minorTicks: 5};
             var gauge;
