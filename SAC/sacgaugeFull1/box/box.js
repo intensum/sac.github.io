@@ -31,7 +31,7 @@
     };
 
     function drawChart(divstr, text, value, firsttime) {
- console.log("step1.");
+ console.log("step1..");
         if (firsttime === 0) {
 
 //            const uuid = PubNub.generateUUID();
