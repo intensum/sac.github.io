@@ -1,7 +1,7 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `<h1>Hello Super Mini World</h1>`;
-
+    console.log("scripting en cours");
     customElements.define('com-sap-sample-exercice3', class exercice3 extends HTMLElement {
 
 
