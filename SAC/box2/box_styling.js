@@ -41,5 +41,4 @@ this._submit.bind(this));
  return this._shadowRoot.getElementById("styling_color").value;
  }
  }
-customElements.define("com-sample-box2-styling",
-BoxStylingPanel);
+customElements.define("com-sample-box2-styling",BoxStylingPanel);
