@@ -4,7 +4,7 @@
     console.log("scripting en cours");
     customElements.define('com-sap-sample-exercice3', class exercice3 extends HTMLElement {
  
-
+ 
 		constructor() {
 			super(); 
 			this._shadowRoot = this.attachShadow({mode: "open"});
