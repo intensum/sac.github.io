@@ -9,7 +9,7 @@
         </style>       
     `;
 
-    const pubnubjs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/pubnub.4.21.7.min.js";
+    //const pubnubjs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/pubnub.4.21.7.min.js";
     const gaugejs = "https://intensum.github.io/sac.github.io/SAC/sacgaugeFull1/box/t.js";
 
     let googleloaderjs = document.createElement("script");
@@ -31,6 +31,7 @@
     };
 
     function drawChart(divstr, text, value, firsttime) {
+ console.log("step1");
         if (firsttime === 0) {
 
 //            const uuid = PubNub.generateUUID();
