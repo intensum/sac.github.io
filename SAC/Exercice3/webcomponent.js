@@ -1,6 +1,7 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `<h1>Hello Super Mini World</h1>
+    <h1>Hello Super Mini World 2</h1>
     google.charts.load('current', {'packages':['gauge']});
             google.charts.setOnLoadCallback(drawGauge);
          
