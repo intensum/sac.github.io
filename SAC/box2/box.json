@@ -11,7 +11,7 @@
  "webcomponents": [
  {
  "kind": "main",
- "tag": "com-sample-box2",
+ "tag": "com-sample-box2", 
  "url": "https://intensum.github.io/sac.github.io/SAC/box2/box.js",
  "integrity": "",
  "ignoreIntegrity": true
