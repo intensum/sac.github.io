@@ -52,7 +52,7 @@
         */ 
 
         redraw(){
-            tmpl.innerHTML = `<h1>Hello Super Mini World 4</h1>`;
+            tmpl.innerHTML = `<h1>Hello Super Mini World 4.</h1>`;
 
         }
     });
