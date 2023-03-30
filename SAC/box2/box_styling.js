@@ -14,7 +14,7 @@ maxlength="40"></td>
  <input type="submit" style="display:none;">
  </fieldset>
  </form>
- `;
+ `; 
  class BoxStylingPanel extends HTMLElement {
  constructor() {
  super();
