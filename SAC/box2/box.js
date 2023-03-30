@@ -1,25 +1,38 @@
 (function() {
  let template = document.createElement("template");
  template.innerHTML = `
- <div class="container">
- <div class="row">
-   <div class="col-md-4 col-sm-4">
-     <div class="metric participation" data-ratio=".95">
-       <svg viewBox="0 0 1000 500">
-           <path d="M 950 500 A 450 450 0 0 0 50 500"></path>
-           <text class='percentage' text-anchor="middle" alignment-baseline="middle" x="500" y="300" font-size="140" font-weight="bold">10%</text>
-           <text class='title' text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal"></text>
-         </svg>
-     </div>
-   </div>
- </div>
-</div>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <div id="chart_div" style="width: 400px; height: 120px;"></div>
  `;     
  class Box extends HTMLElement {
  constructor() {
  super(); 
  let shadowRoot = this.attachShadow({mode: "open"});
  shadowRoot.appendChild(template.content.cloneNode(true));
+
+ function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Label', 'Value'],
+      ['Memory', 80],
+      ['CPU', 55],
+      ['Network', 68]
+    ]);
+
+    var options = {
+      width: 400,
+      height: 120,
+      redFrom: 90,
+      redTo: 100,
+      yellowFrom: 75,
+      yellowTo: 90,
+      minorTicks: 5
+    };
+
+    var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    
  this.addEventListener("click", event => {
  var event = new Event("onClick"); 
  console.log("ceci est l event de lasch");
