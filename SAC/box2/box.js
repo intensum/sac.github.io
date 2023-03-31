@@ -10,7 +10,15 @@
  let shadowRoot = this.attachShadow({mode: "open"});
  shadowRoot.appendChild(template.content.cloneNode(true));
 
- function drawChart() {
+ this.addEventListener("click", event => {
+    var event = new Event("onClick"); 
+    console.log("ceci est l event de lasch");
+    this.dispatchEvent(event);
+    });
+    this._props = {};
+}
+// function drawChart() {
+drawChart() {
 
     var data = google.visualization.arrayToDataTable([
       ['Label', 'Value'],
@@ -32,25 +40,20 @@
     var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
 
     chart.draw(data, options);
-    
- this.addEventListener("click", event => {
- var event = new Event("onClick"); 
- console.log("ceci est l event de lasch");
- this.dispatchEvent(event);
- });
- this._props = {};
  }
+
  onCustomWidgetBeforeUpdate(changedProperties) {
- this._props = { ...this._props, ...changedProperties };
+    this._props = { ...this._props, ...changedProperties };
  }
+
  onCustomWidgetAfterUpdate(changedProperties) {
- if ("color" in changedProperties) {
- this.style["background-color"] = changedProperties["color"];
+    if ("color" in changedProperties) {
+    this.style["background-color"] = changedProperties["color"];
+    }
+    if ("opacity" in changedProperties) {
+    this.style["opacity"] = changedProperties["opacity"];
+    }
  }
- if ("opacity" in changedProperties) {
- this.style["opacity"] = changedProperties["opacity"];
- }
- }
- }
+ 
  customElements.define("com-sample-box2", Box);
 })();
