@@ -75,7 +75,7 @@
 			"parameters": [
 				{
 					"name": "newMin",
-					"type": "string",
+					"type": "integer",
 					"description": "Gauge Min Value"
 				}
 			],
@@ -86,7 +86,7 @@
 			"parameters": [
 				{
 					"name": "newMax",
-					"type": "string",
+					"type": "integer",
 					"description": "Gauge Max Value"
 				}
 			],
