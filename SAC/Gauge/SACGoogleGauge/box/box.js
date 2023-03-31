@@ -189,9 +189,9 @@
                 Ar.push({
                     'id': divid,
                     'div': mapcanvas_divstr,
-                    'value': this.$value,
-                    'title': "essai", //this.$title,
-                    'subtitle': this.$subtitle,
+                    'value': 88, //this.$value,
+                    'title': "essai1", //this.$title,
+                    'subtitle': "essai2", //this.$subtitle,
                     'min': this.$min,
                     'max': this.$max
                 });
