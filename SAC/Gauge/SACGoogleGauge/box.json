@@ -4,7 +4,7 @@
 	"name": "Gauge LED",
 	"description": "A Gauge LED demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://intensum.github.io/sac.github.io/Gauge/SACGoogleGauge/box/icon.png",
+	"icon": "https://intensum.github.io/sac.github.io/SAC/Gauge/SACGoogleGauge/box/icon.png",
 	"vendor": "FD",
 	"eula": "EULA",
 	"license": "2.0",
@@ -12,13 +12,13 @@
 		{
 			"kind": "main",
 			"tag": "com-fd-sacgauge",
-			"url": "https://intensum.github.io/sac.github.io/Gauge/SACGoogleGauge/box/box.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/Gauge/SACGoogleGauge/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},{
 			"kind": "builder",
 			"tag": "com-fd-sacgauge-bps",
-			"url": "https://intensum.github.io/sac.github.io/Gauge/SACGoogleGauge/box/box_bps.js",
+			"url": "https://intensum.github.io/sac.github.io/SAC/Gauge/SACGoogleGauge/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}

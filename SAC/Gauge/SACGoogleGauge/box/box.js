@@ -9,8 +9,8 @@
         </style>       
     `;
 
-    const pubnubjs = "https://intensum.github.io/sac.github.io/Gauge/SACGoogleGauge/box/pubnub.4.21.7.min.js";
-    const gaugejs = "https://intensum.github.io/sac.github.io/Gauge/SACGoogleGauge/box/t.js";
+    const pubnubjs = "https://intensum.github.io/sac.github.io/SAC/Gauge/SACGoogleGauge/box/pubnub.4.21.7.min.js";
+    const gaugejs = "https://intensum.github.io/sac.github.ioSAC//Gauge/SACGoogleGauge/box/t.js";
 
     let googleloaderjs = document.createElement("script");
     googleloaderjs.src = "https://www.gstatic.com/charts/loader.js";
