@@ -1,8 +1,8 @@
 {
 	"id": "com.fd.sacgauge",
-	"version": "0.0.1",
+	"version": "0.0.1a",
 	"name": "Gauge LED",
-	"description": "A Gauge LED demo",
+	"description": "A Gauge LED demo FULL 2023 03 31",
 	"newInstancePrefix": "Gauge",
 	"icon": "https://intensum.github.io/sac.github.io/SAC/Gauge/SACGoogleGauge/box/icon.png",
 	"vendor": "FD",
