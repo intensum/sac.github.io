@@ -1,6 +1,6 @@
 {
 	"id": "com.fd.sacgauge",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"name": "Gauge LED",
 	"description": "A Gauge LED demo",
 	"newInstancePrefix": "Gauge",
