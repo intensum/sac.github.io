@@ -69,7 +69,8 @@
 				}
 			],
 			"body": "this.value = newValue;"
-		},"setTitle": {
+		},
+		"setTitle": {
 			"description": "Sets the Gauge Title.",
 			"parameters": [
 				{
