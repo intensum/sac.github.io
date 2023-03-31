@@ -190,7 +190,7 @@
                     'id': divid,
                     'div': mapcanvas_divstr,
                     'value': this.$value,
-                    'title': this.$title,
+                    'title': "essai", //this.$title,
                     'subtitle': this.$subtitle,
                     'min': this.$min,
                     'max': this.$max
