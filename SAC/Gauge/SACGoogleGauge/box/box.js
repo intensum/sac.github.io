@@ -88,16 +88,16 @@
         } else {
             var foundIndex = ArData.findIndex(x => x.id == text);
             console.log("dans le else");
-            ArPubNub[foundIndex].pubnub.publish({
-                channel: "pubnub_onboarding_channel",
-                message: {
-                    "sender": ArPubNub[foundIndex].uuid,
-                    "content": value
-                }
-            }, function(status, response) {
-                console.log(status);
-                console.log(response);
-            });
+         //   ArPubNub[foundIndex].pubnub.publish({
+         //       channel: "pubnub_onboarding_channel",
+         //       message: {
+         //           "sender": ArPubNub[foundIndex].uuid,
+         //           "content": value
+         //       }
+         //   }, function(status, response) {
+         //       console.log(status);
+         //       console.log(response);
+         //   });
 
             ArData[foundIndex].data.setValue(0, 1, parseInt(value));
             ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
