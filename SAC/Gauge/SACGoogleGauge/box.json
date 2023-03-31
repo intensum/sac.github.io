@@ -69,6 +69,16 @@
 				}
 			],
 			"body": "this.value = newValue;"
+		},"setTitle": {
+			"description": "Sets the Gauge Title.",
+			"parameters": [
+				{
+					"name": "newtitle",
+					"type": "string",
+					"description": "Gauge Title"
+				}
+			],
+			"body": "this.title = newTitle;"
 		},
 		"getValue": {
 			"returnType": "string",
