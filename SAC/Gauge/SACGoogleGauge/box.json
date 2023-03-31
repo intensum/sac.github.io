@@ -1,6 +1,6 @@
 {
 	"id": "com.fd.sacgauge",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"name": "Gauge LED 2023 03 31",
 	"description": "A Gauge LED demo FULL 2023 03 31",
 	"newInstancePrefix": "Gauge",
