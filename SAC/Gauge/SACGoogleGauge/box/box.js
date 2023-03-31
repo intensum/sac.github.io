@@ -100,10 +100,10 @@
          //   });
             console.log("1)Value:");
             console.log(value);
-            console.log(".");
+            console.log("1.");
             ArData[foundIndex].data.setValue(0, 1, parseInt(value));
-            console.log(ArData[foundIndex].options);
-            
+            //console.log(ArData[foundIndex].options);
+            console.log("2.");
             
             ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }
