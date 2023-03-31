@@ -98,7 +98,9 @@
          //       console.log(status);
          //       console.log(response);
          //   });
-
+            console.log("1)Value:");
+            console.log(value);
+            console.log(".");
             ArData[foundIndex].data.setValue(0, 1, parseInt(value));
             ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }
