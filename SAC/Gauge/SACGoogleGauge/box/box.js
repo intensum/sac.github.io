@@ -60,7 +60,7 @@
                     redTo: 100,
                     yellowFrom: 55,
                     yellowTo: 90,
-                    greenFrom: 0,
+                    greenFrom: 7,
                     greenTo: 55,
                     minorTicks: 5
                 };
