@@ -102,6 +102,9 @@
             console.log(value);
             console.log(".");
             ArData[foundIndex].data.setValue(0, 1, parseInt(value));
+            console.log(ArData[foundIndex].options);
+            
+            
             ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }
     };
