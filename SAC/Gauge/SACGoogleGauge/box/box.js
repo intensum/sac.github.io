@@ -42,7 +42,7 @@
 
             var foundIndex = ArData.findIndex(x => x.id == text);
             if (foundIndex === -1) {
-
+                console.log("dans le if");
                 var data = google.visualization.arrayToDataTable([
                     ['Label', 'Value'],
                     [text, value]
@@ -87,7 +87,7 @@
 
         } else {
             var foundIndex = ArData.findIndex(x => x.id == text);
-
+            console.log("dans le else");
             ArPubNub[foundIndex].pubnub.publish({
                 channel: "pubnub_onboarding_channel",
                 message: {
