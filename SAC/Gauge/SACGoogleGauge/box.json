@@ -70,6 +70,28 @@
 			],
 			"body": "this.value = newValue;"
 		},
+		"setMin": {
+			"description": "Sets the Gauge min value.",
+			"parameters": [
+				{
+					"name": "newMin",
+					"type": "string",
+					"description": "Gauge Min Value"
+				}
+			],
+			"body": "this.min = newMin;"
+		},
+		"setMax": {
+			"description": "Sets the Gauge max value.",
+			"parameters": [
+				{
+					"name": "newMax",
+					"type": "string",
+					"description": "Gauge Max Value"
+				}
+			],
+			"body": "this.max = newMax;"
+		},
 		"setTitle": {
 			"description": "Sets the Gauge Title.",
 			"parameters": [
