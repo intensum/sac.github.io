@@ -65,15 +65,15 @@
                     greenTo: 55,
                     minorTicks: 5
                 };
-                options.width = 600:
-                options.height = 240:
-                options.redFrom = 80:
-                options.redTo = 100:
-                options.yellowFrom = 55:
-                options.yellowTo = 90:
-                options.greenFrom = 7:
-                options.greenTo =  55:
-                options.minorTicks = 5:
+                options.width = 600;
+                options.height = 240;
+                options.redFrom = 80;
+                options.redTo = 100;
+                options.yellowFrom = 55;
+                options.yellowTo = 90;
+                options.greenFrom = 7;
+                options.greenTo =  55;
+                options.minorTicks = 5;
                 console.log("test2b.");
                 console.log(options.redFrom);
                 options.redFrom = 111;
