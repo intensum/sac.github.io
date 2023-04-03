@@ -30,7 +30,7 @@
         });
     };
 
-    function drawChart(divstr, text, value, firsttime, red_from) {
+    function drawChart(divstr, text, value, firsttime, red_from) { //}, red_to, yellow_from, yellow_to, green_from, green_to) {
         if (firsttime === 0) {
 
             const uuid = PubNub.generateUUID();
@@ -55,7 +55,7 @@
                 var test1=0;
                 console.log("test2a.");
                 var options = {
-                    width: 100, //600,
+                    width: 600,
                     height: 240,
                     redFrom: 80,
                     redTo: 100,
@@ -65,6 +65,15 @@
                     greenTo: 55,
                     minorTicks: 5
                 };
+                options.width = 600:
+                options.height = 240:
+                options.redFrom = 80:
+                options.redTo = 100:
+                options.yellowFrom = 55:
+                options.yellowTo = 90:
+                options.greenFrom = 7:
+                options.greenTo =  55:
+                options.minorTicks = 5:
                 console.log("test2b.");
                 console.log(options.redFrom);
                 options.redFrom = 111;
