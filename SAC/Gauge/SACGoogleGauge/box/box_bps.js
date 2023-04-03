@@ -38,7 +38,7 @@
 						<td><input id="bps_yellowto" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>greenfgrom</td>
+						<td>greenfrom</td>
 						<td><input id="bps_greenfrom" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
@@ -85,7 +85,7 @@
 							yellowto: this.yellowto,
 							greenfrom: this.greenfrom,
 							greento: this.greento,
-							minorticks: this.redfrom
+							minorticks: this.minoticks
 						}
 					}
 			}));
