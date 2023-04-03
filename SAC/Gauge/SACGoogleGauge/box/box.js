@@ -231,6 +231,36 @@
                 this.$redfrom = changedProperties["redfrom"];
             }
 
+            if ("redto" in changedProperties) {
+                console.log("redto:" + changedProperties["redto"]);
+                this.$redto = changedProperties["redto"];
+            }
+
+            if ("yellowfrom" in changedProperties) {
+                console.log("yellowfrom:" + changedProperties["yellowrom"]);
+                this.$yellowfrom = changedProperties["yellowfrom"];
+            }
+
+            if ("yellowto" in changedProperties) {
+                console.log("yellowto:" + changedProperties["yellowto"]);
+                this.$yellowto = changedProperties["yellowto"];
+            }
+
+            if ("greenfrom" in changedProperties) {
+                console.log("greenfrom:" + changedProperties["greenfrom"]);
+                this.$greenfrom = changedProperties["greenfrom"];
+            }
+
+            if ("greento" in changedProperties) {
+                console.log("greento:" + changedProperties["greento"]);
+                this.$greento = changedProperties["greento"];
+            }
+
+            if ("minorticks" in changedProperties) {
+                console.log("minorticks:" + changedProperties["minorticks"]);
+                this.$minorticks = changedProperties["minorticks"];
+            }
+
             var that = this;
 
             if (this._firstConnection === 0) {
