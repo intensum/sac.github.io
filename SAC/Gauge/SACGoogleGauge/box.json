@@ -80,7 +80,7 @@
 		"greenfrom": {
 			"type": "integer",
 			"description": "Gauge greenfrom",
-			"default": 7
+			"default": 0
 		},
 		"greento": {
 			"type": "integer",

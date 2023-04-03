@@ -61,7 +61,7 @@
                     redTo: 100,
                     yellowFrom: 55,
                     yellowTo: 90,
-                    greenFrom: 7,
+                    greenFrom: 0,
                     greenTo: 55,
                     minorTicks: 5
                 };
@@ -77,7 +77,7 @@
                 console.log(options.yellowFrom);
                 options.yellowTo = 80;
                 console.log(options.yellowTo);
-                options.greenFrom = 7;
+                options.greenFrom = 0;
                 console.log(options.greenFrom);
                 options.greenTo =  55;
                 console.log(options.greenTo);
