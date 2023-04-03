@@ -70,7 +70,7 @@
                 options.redFrom = 111;
                 console.log("test2c.");
                 console.log(options.redFrom);
-
+                console.log("test2d.");
                 ArOptions.push({
                     'id': text,
                     'options': options
