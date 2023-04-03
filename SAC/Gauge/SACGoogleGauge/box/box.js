@@ -75,7 +75,7 @@
                 console.log("test2e.");
                 options.yellowFrom = 55;
                 console.log("test2f.");
-                options.yellowTo = 90;
+                options.yellowTo = 80;
                 console.log("test2g.");
                 options.greenFrom = 7;
                 console.log("test2h.");
