@@ -127,7 +127,8 @@
         console.log("2c.");
   */    
         //options.redFrom = 77; //parseInt(red_from);
-        console.log("test2a...");
+        console.log("test2a....");
+        ArOptions[foundIndex].options.redFrom=22;
         console.log(ArOptions[foundIndex].options.redFrom);
         console.log("test2ee.");
         ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
