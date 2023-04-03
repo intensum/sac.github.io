@@ -56,6 +56,11 @@
 		"height": {
 			"type": "integer",
 			"default": 50
+		},
+		"redfrom": {
+			"type": "integer",
+			"description": "Gauge redfrom",
+			"default": 81
 		}
 	},
 	"methods": {
@@ -91,6 +96,17 @@
 				}
 			],
 			"body": "this.max = newMax;"
+		},
+		"setredfrom": {
+			"description": "Sets the Gauge redfrom value.",
+			"parameters": [
+				{
+					"name": "newRedfrom",
+					"type": "integer",
+					"description": "Gauge Redfrom Value"
+				}
+			],
+			"body": "this.redfrom = newRedfrom;"
 		},
 		"setTitle": {
 			"description": "Sets the Gauge Title.",

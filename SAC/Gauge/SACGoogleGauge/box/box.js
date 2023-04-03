@@ -54,6 +54,8 @@
                 });
                 var test1=0;
                 console.log("test2a.");
+                console.log(this.redFrom);
+                console.log("test2aa.");
                 var options = {
                     width: 100, //600,
                     height: 240,
@@ -71,6 +73,7 @@
                 console.log("test2c.");
                 console.log(options.redFrom);
                 console.log("test2d.");
+
                 ArOptions.push({
                     'id': text,
                     'options': options

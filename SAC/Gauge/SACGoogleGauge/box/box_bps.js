@@ -21,6 +21,10 @@
 						<td>max</td>
 						<td><input id="bps_max" type="text" size="50" maxlength="10"></td>
 					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_redfrom" type="text" size="50" maxlength="10"></td>
+					</tr>
 				</table>
 				<input type="submit" style="display:none;">
 			</fieldset>
@@ -49,7 +53,8 @@
 							title: this.title,
 							subtitle: this.subtitle,
 							min: this.min,
-							max: this.max
+							max: this.max,
+							redfrom: this.redfrom
 						}
 					}
 			}));
@@ -67,6 +72,9 @@
 		set max(max) {
 			this._shadowRoot.getElementById("bps_max").value = max;
 		}
+		set redfrom(redfrom) {
+			this._shadowRoot.getElementById("bps_redfrom").value = redfrom;
+		}
 		//////////////		
 		get title() {
 			return this._shadowRoot.getElementById("bps_title").value;
@@ -79,6 +87,9 @@
 		}		
 		get max() {
 			return this._shadowRoot.getElementById("bps_max").value;
+		}		
+		get redfrom() {
+			return this._shadowRoot.getElementById("bps_redfrom").value;
 		}		
 	}
 
