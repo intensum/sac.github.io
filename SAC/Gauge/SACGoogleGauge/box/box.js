@@ -105,15 +105,15 @@
                                     ArData[foundIndex].data.setValue(0, 1, parseInt(value));
         setInterval(function() {
             data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
-            chart.draw(data, options);
+            chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }, 13000);
         setInterval(function() {
             data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
-            chart.draw(data, options);
+            chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }, 5000);
         setInterval(function() {
             data.setValue(2, 1, 60 + Math.round(20 * Math.random()));
-            chart.draw(data, options);
+            chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }, 26000);
         console.log("2.");
             
