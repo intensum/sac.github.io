@@ -53,7 +53,7 @@
                     'data': data
                 });
                 var test1=0;
-
+                console.log("test1a.");
                 var options = {
                     width: 100, //600,
                     height: 240,
