@@ -30,7 +30,7 @@
         });
     };
 
-    function drawChart(divstr, text, value, firsttime, red_from) { //}, red_to, yellow_from, yellow_to, green_from, green_to) {
+    function drawChart(divstr, text, value, firsttime, red_from, red_to, yellow_from, yellow_to, green_from, green_to) {
         if (firsttime === 0) {
 
             const uuid = PubNub.generateUUID();
@@ -123,7 +123,7 @@
             console.log("1a."); 
             console.log("2a.");
             console.log("2a..");
-                                    ArData[foundIndex].data.setValue(0, 1, parseInt(value));
+          ArData[foundIndex].data.setValue(0, 1, parseInt(value));
 /*        setInterval(function() {
             data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
             chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
@@ -138,12 +138,22 @@
         }, 26000);
         console.log("2c.");
   */    
-        //options.redFrom = 77; //parseInt(red_from);
         console.log("test2a....");
-        ArOptions[foundIndex].options.redFrom=22;
+        ArOptions[foundIndex].options.redFrom=red_from;
+        ArOptions[foundIndex].options.redTo=red_to;
+        ArOptions[foundIndex].options.yellowFrom=yellow_from;
+        ArOptions[foundIndex].options.yellowTo=yellow_to;
+        ArOptions[foundIndex].options.greenFrom=green_from;
+        ArOptions[foundIndex].options.greenTo=green_to;
         console.log(ArOptions[foundIndex].options.redFrom);
-        console.log("test2ee.");
+        console.log(ArOptions[foundIndex].options.redTo);
+        console.log(ArOptions[foundIndex].options.yellowFrom);
+        console.log(ArOptions[foundIndex].options.yellowTo);
+        console.log(ArOptions[foundIndex].options.greenFrom);
+        console.log(ArOptions[foundIndex].options.greenTo);
+
         ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
+        
         console.log("3.");
         }
     };
