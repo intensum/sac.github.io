@@ -22,31 +22,31 @@
 						<td><input id="bps_max" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>redfrom</td>
 						<td><input id="bps_redfrom" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>redto</td>
 						<td><input id="bps_redto" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>yellowfrom</td>
 						<td><input id="bps_yellowfrom" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>yellowto</td>
 						<td><input id="bps_yellowto" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>greenfgrom</td>
 						<td><input id="bps_greenfrom" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>greento</td>
 						<td><input id="bps_greento" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
-						<td>max</td>
+						<td>minorticks</td>
 						<td><input id="bps_minorticks" type="text" size="50" maxlength="10"></td>
 					</tr>
 				</table>
@@ -69,7 +69,7 @@
 			this._shadowRoot.getElementById("form").addEventListener("submit", this._submit.bind(this));
 		}
  
-		
+
 		_submit(e) {
 			e.preventDefault();
 			this.dispatchEvent(new CustomEvent("propertiesChanged", {
