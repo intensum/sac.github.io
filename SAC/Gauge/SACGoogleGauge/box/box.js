@@ -101,7 +101,8 @@
             console.log("1)Value:");
             console.log(value);
             console.log("1.");
-                        ArData[foundIndex].data.setValue(0, 1, parseInt(value));
+            console.log("1a.");
+                                    ArData[foundIndex].data.setValue(0, 1, parseInt(value));
             console.log(ArData[foundIndex].options[1]);
             console.log("2.");
             
