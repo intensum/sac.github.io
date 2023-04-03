@@ -253,6 +253,9 @@
                 var max = this.$max;
                 console.log("max: " + max);
 
+                var redfrom = this.$Redfrom;
+                console.log("redfrom: " + redfrom);
+
 
                 if (value !== "") {
                     var foundIndex = Ar.findIndex(x => x.id == id);
