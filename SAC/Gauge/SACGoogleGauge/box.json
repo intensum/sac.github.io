@@ -138,6 +138,61 @@
 			],
 			"body": "this.redfrom = newRedfrom;"
 		},
+		"setredto": {
+			"description": "Sets the Gauge redto value.",
+			"parameters": [
+				{
+					"name": "newRedto",
+					"type": "integer",
+					"description": "Gauge Redto Value"
+				}
+			],
+			"body": "this.redto = newRedto;"
+		},
+		"setyellowfrom": {
+			"description": "Sets the Gauge yellowfrom value.",
+			"parameters": [
+				{
+					"name": "newYellowfrom",
+					"type": "integer",
+					"description": "Gauge Yellowfrom Value"
+				}
+			],
+			"body": "this.yellowfrom = newYellowfrom;"
+		},
+		"setyellowto": {
+			"description": "Sets the Gauge yellowto value.",
+			"parameters": [
+				{
+					"name": "newYellowto",
+					"type": "integer",
+					"description": "Gauge Yellowto Value"
+				}
+			],
+			"body": "this.yellowto = newYellowto;"
+		},
+		"setgreenfrom": {
+			"description": "Sets the Gauge greenfrom value.",
+			"parameters": [
+				{
+					"name": "newGreenfrom",
+					"type": "integer",
+					"description": "Gauge Greenfrom Value"
+				}
+			],
+			"body": "this.greenfrom = newGreenfrom;"
+		},
+		"setgreento": {
+			"description": "Sets the Gauge greento value.",
+			"parameters": [
+				{
+					"name": "newGreento",
+					"type": "integer",
+					"description": "Gauge Greento Value"
+				}
+			],
+			"body": "this.greento = newGreento;"
+		},
 		"setTitle": {
 			"description": "Sets the Gauge Title.",
 			"parameters": [
