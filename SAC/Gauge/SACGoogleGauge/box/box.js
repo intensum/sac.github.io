@@ -103,8 +103,19 @@
             console.log("1.");
             console.log("1a.");
                                     ArData[foundIndex].data.setValue(0, 1, parseInt(value));
-            console.log(ArData[foundIndex].options[1]);
-            console.log("2.");
+        setInterval(function() {
+            data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
+            chart.draw(data, options);
+        }, 13000);
+        setInterval(function() {
+            data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
+            chart.draw(data, options);
+        }, 5000);
+        setInterval(function() {
+            data.setValue(2, 1, 60 + Math.round(20 * Math.random()));
+            chart.draw(data, options);
+        }, 26000);
+        console.log("2.");
             
             ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }
