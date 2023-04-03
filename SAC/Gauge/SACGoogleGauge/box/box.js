@@ -200,6 +200,11 @@
                 this.$max = changedProperties["max"];
             }
 
+            if ("redfrom" in changedProperties) {
+                console.log("redfrom:" + changedProperties["redfrom"]);
+                this.$redfrom = changedProperties["redfrom"];
+            }
+
             var that = this;
 
             if (this._firstConnection === 0) {
