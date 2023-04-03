@@ -26,11 +26,11 @@
     // Google Chart
     function GoogleChart(divstr, text, value, firsttime) {
         google.setOnLoadCallback(function() {
-               drawChart(divstr, text, value, firsttime);
+               drawChart(divstr, text, value, firsttime,80);
         });
     };
 
-    function drawChart(divstr, text, value, firsttime) {
+    function drawChart(divstr, text, value, firsttime, red_from) {
         if (firsttime === 0) {
 
             const uuid = PubNub.generateUUID();
@@ -54,8 +54,6 @@
                 });
                 var test1=0;
                 console.log("test2a.");
-                console.log(this.redFrom);
-                console.log("test2aa.");
                 var options = {
                     width: 100, //600,
                     height: 240,
@@ -126,7 +124,10 @@
             chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }, 26000);
         console.log("2c.");
-  */          
+  */    
+        options.redFrom = parseInt(red_from);
+        console.log(options.redFrom);
+        console.log("test2d.");
         ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         console.log("3.");
         }
@@ -267,7 +268,8 @@
                     console.log("foundIndex: " + foundIndex);
 
                     if (foundIndex !== -1) {
-                        drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection);
+                        drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection, redfrom);
+  //                      drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection);
                     }
                 }
             }
