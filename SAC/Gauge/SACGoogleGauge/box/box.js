@@ -26,7 +26,7 @@
     // Google Chart
     function GoogleChart(divstr, text, value, firsttime) {
         google.setOnLoadCallback(function() {
-               drawChart(divstr, text, value, firsttime,80);
+               drawChart(divstr, text, value, firsttime,80,100,55,80,0,55);
         });
     };
 
@@ -248,11 +248,18 @@
                 Ar.push({
                     'id': divid,
                     'div': mapcanvas_divstr,
-                    'value': 88, //this.$value,
-                    'title': "essai1", //this.$title,
-                    'subtitle': "essai2", //this.$subtitle,
+                    'value': this.$value,
+                    'title': this.$title,
+                    'subtitle': this.$subtitle,
                     'min': this.$min,
-                    'max': this.$max
+                    'max': this.$max,
+                    'redfrom': this.$redfrom,
+                    'redto': this.$redto,
+                    'yellowfrom': this.$yellowfrom,
+                    'yellowto': this.$yellowto,
+                    'greenfrom': this.$greenfrom,
+                    'greento': this.$greento,
+                    'minorticks': this.$minorticks
                 });
 
                 loadScript(pubnubjs, function() {
@@ -287,13 +294,27 @@
                 var redfrom = this.$redfrom;
                 console.log("redfrom new: " + redfrom);
 
+                var redto = this.$redto;
+                console.log("redto new: " + redto);
+
+                var yellowfrom = this.$yellowfrom;
+                console.log("yellowfrom new: " + yellowfrom);
+
+                var yellowto = this.$yellowto;
+                console.log("yellowto new: " + yellowto);
+
+                var greenfrom = this.$greenfrom;
+                console.log("greenfrom new: " + greenfrom);
+
+                var greento = this.$greento;
+                console.log("greento new: " + greento);
 
                 if (value !== "") {
                     var foundIndex = Ar.findIndex(x => x.id == id);
                     console.log("foundIndex: " + foundIndex);
 
                     if (foundIndex !== -1) {
-                        drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection, parseInt(redfrom));
+                        drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection, parseInt(redfrom), parseInt(redto), parseInt(yellowfrom), parseInt(yellowto), parseInt(greenfrom), parseInt(greento));
   //                      drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection);
                     }
                 }
