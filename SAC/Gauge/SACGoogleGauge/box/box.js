@@ -53,7 +53,7 @@
                     'data': data
                 });
                 var test1=0;
-                console.log("test1a.");
+                console.log("test2a.");
                 var options = {
                     width: 100, //600,
                     height: 240,
@@ -65,10 +65,10 @@
                     greenTo: 55,
                     minorTicks: 5
                 };
-                console.log("test2a.");
+                console.log("test2b.");
                 console.log(options.redFrom);
                 options.redFrom = 111;
-                console.log("test2a.");
+                console.log("test2c.");
                 console.log(options.redFrom);
 
                 ArOptions.push({
