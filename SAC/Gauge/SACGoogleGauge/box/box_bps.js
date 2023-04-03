@@ -78,12 +78,12 @@
 							subtitle: this.subtitle,
 							min: this.min,
 							max: this.max,
-							redfrom: this.redfrom
-							redto: this.redto
-							yellowfrom: this.yellowfrom
-							yellowto: this.yellowto
-							greenfrom: this.greenfrom
-							greento: this.greento
+							redfrom: this.redfrom,
+							redto: this.redto,
+							yellowfrom: this.yellowfrom,
+							yellowto: this.yellowto,
+							greenfrom: this.greenfrom,
+							greento: this.greento,
 							minorticks: this.redfrom
 						}
 					}
