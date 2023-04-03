@@ -14,7 +14,7 @@
 						<td><input id="bps_subtitle" type="text" size="50" maxlength="20"></td>
 					</tr>
 					<tr>
-						<td>min</td>
+					<td>min</td>
 						<td><input id="bps_min" type="text" size="50" maxlength="10"></td>
 					</tr>
 					<tr>
