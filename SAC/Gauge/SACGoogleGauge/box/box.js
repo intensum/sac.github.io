@@ -253,8 +253,8 @@
                 var max = this.$max;
                 console.log("max: " + max);
 
-                var redfrom = this.$Redfrom;
-                console.log("redfrom: " + redfrom);
+                var redfrom = this.$redfrom;
+                console.log("redfrom new: " + redfrom);
 
 
                 if (value !== "") {
