@@ -25,6 +25,30 @@
 						<td>max</td>
 						<td><input id="bps_redfrom" type="text" size="50" maxlength="10"></td>
 					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_redto" type="text" size="50" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_yellowfrom" type="text" size="50" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_yellowto" type="text" size="50" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_greenfrom" type="text" size="50" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_greento" type="text" size="50" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td>max</td>
+						<td><input id="bps_minorticks" type="text" size="50" maxlength="10"></td>
+					</tr>
 				</table>
 				<input type="submit" style="display:none;">
 			</fieldset>
@@ -55,6 +79,12 @@
 							min: this.min,
 							max: this.max,
 							redfrom: this.redfrom
+							redto: this.redto
+							yellowfrom: this.yellowfrom
+							yellowto: this.yellowto
+							greenfrom: this.greenfrom
+							greento: this.greento
+							minorticks: this.redfrom
 						}
 					}
 			}));
@@ -75,6 +105,25 @@
 		set redfrom(redfrom) {
 			this._shadowRoot.getElementById("bps_redfrom").value = redfrom;
 		}
+		set redto(redto) {
+			this._shadowRoot.getElementById("bps_redto").value = redto;
+		}
+		set yellowfrom(yellowfrom) {
+			this._shadowRoot.getElementById("bps_yellowfrom").value = yellowfrom;
+		}
+		set yellowto(yellowto) {
+			this._shadowRoot.getElementById("bps_yellowto").value = yellowto;
+		}
+		set greenfrom(greenfrom) {
+			this._shadowRoot.getElementById("bps_greenfrom").value = greenfrom;
+		}
+		set greento(greento) {
+			this._shadowRoot.getElementById("bps_greento").value = greento;
+		}
+		set minorticks(minorticks) {
+			this._shadowRoot.getElementById("bps_minorticks").value = minorticks;
+		}
+
 		//////////////		
 		get title() {
 			return this._shadowRoot.getElementById("bps_title").value;
@@ -90,6 +139,24 @@
 		}		
 		get redfrom() {
 			return this._shadowRoot.getElementById("bps_redfrom").value;
+		}		
+		get redto() {
+			return this._shadowRoot.getElementById("bps_redto").value;
+		}		
+		get yellowfrom() {
+			return this._shadowRoot.getElementById("bps_yellowfrom").value;
+		}		
+		get yellowto() {
+			return this._shadowRoot.getElementById("bps_yellowto").value;
+		}		
+		get greenfrom() {
+			return this._shadowRoot.getElementById("bps_greenfrom").value;
+		}		
+		get greento() {
+			return this._shadowRoot.getElementById("bps_greento").value;
+		}		
+		get minorticks() {
+			return this._shadowRoot.getElementById("bps_minorticks").value;
 		}		
 	}
 

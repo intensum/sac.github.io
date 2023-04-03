@@ -51,16 +51,46 @@
 		},
 		"width": {
 			"type": "integer",
-			"default": 50
+			"default": 600
 		},
 		"height": {
 			"type": "integer",
-			"default": 50
+			"default": 240
 		},
 		"redfrom": {
 			"type": "integer",
 			"description": "Gauge redfrom",
-			"default": 81
+			"default": 80
+		},
+		"redto": {
+			"type": "integer",
+			"description": "Gauge redto",
+			"default": 100
+		},
+		"yellowfrom": {
+			"type": "integer",
+			"description": "Gauge yellowfrom",
+			"default": 55
+		},
+		"yellowto": {
+			"type": "integer",
+			"description": "Gauge yellowto",
+			"default": 80
+		},
+		"greenfrom": {
+			"type": "integer",
+			"description": "Gauge greenfrom",
+			"default": 7
+		},
+		"greento": {
+			"type": "integer",
+			"description": "Gauge greento",
+			"default": 55
+		},
+		"minorticks": {
+			"type": "integer",
+			"description": "Gauge minorticks",
+			"default": 5
 		}
 	},
 	"methods": {
