@@ -101,7 +101,7 @@
             console.log("1)Value:");
             console.log(value);
             console.log("1.");
-            console.log("1a.");
+            console.log("1a."); 
             console.log("2a.");
                                     ArData[foundIndex].data.setValue(0, 1, parseInt(value));
         setInterval(function() {
