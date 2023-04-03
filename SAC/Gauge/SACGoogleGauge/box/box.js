@@ -268,7 +268,7 @@
                     console.log("foundIndex: " + foundIndex);
 
                     if (foundIndex !== -1) {
-                        drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection, redfrom);
+                        drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection, parseInt(redfrom));
   //                      drawChart(Ar[foundIndex].div, id, parseInt(value), this._firstConnection);
                     }
                 }
