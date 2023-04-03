@@ -66,29 +66,24 @@
                     minorTicks: 5
                 };
                 options.width = 600;
-                console.log("test2b.");
+                console.log(options.width);
                 options.height = 240;
-                console.log("test2c.");
+                console.log(options.height);
                 options.redFrom = 80;
-                console.log("test2d.");
+                console.log(options.redFrom);
                 options.redTo = 100;
-                console.log("test2e.");
+                console.log(options.redTo);
                 options.yellowFrom = 55;
-                console.log("test2f.");
+                console.log(options.yellowFrom);
                 options.yellowTo = 80;
-                console.log("test2g.");
+                console.log(options.yellowTo);
                 options.greenFrom = 7;
-                console.log("test2h.");
+                console.log(options.greenFrom);
                 options.greenTo =  55;
-                console.log("test2i.");
+                console.log(options.greenTo);
                 options.minorTicks = 5;
-                console.log("test2j.");
-                console.log(options.redFrom);
-                options.redFrom = 111;
-                console.log("test2k");
-                console.log(options.redFrom);
-                console.log("test2l");
-
+                console.log(options.minorTicks);
+                
                 ArOptions.push({
                     'id': text,
                     'options': options
