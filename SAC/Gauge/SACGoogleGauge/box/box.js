@@ -110,6 +110,7 @@
             console.log("1.");
             console.log("1a."); 
             console.log("2a.");
+            console.log("2a..");
                                     ArData[foundIndex].data.setValue(0, 1, parseInt(value));
 /*        setInterval(function() {
             data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
