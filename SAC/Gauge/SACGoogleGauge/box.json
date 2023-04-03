@@ -107,6 +107,11 @@
 			"returnType": "string",
 			"description": "Returns the Gauge value.",
 			"body": "return this.value;"
+		},
+		"getTitle": {
+			"returnType": "string",
+			"description": "Returns the Gauge title.",
+			"body": "return this.title;"
 		}
 	},
 	"events": {
