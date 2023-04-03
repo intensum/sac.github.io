@@ -32,12 +32,12 @@
 		"title": {
 			"type": "string",
 			"description": "Gauge title",
-			"default": ""
+			"default": "default"
 		},
 		"subtitle": {
 			"type": "string",
 			"description": "Gauge subtitle",
-			"default": ""
+			"default": "default"
 		},
 		"min": {
 			"type": "integer",
