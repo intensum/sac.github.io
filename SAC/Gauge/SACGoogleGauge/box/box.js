@@ -52,9 +52,10 @@
                     'id': text,
                     'data': data
                 });
+                var test1=0;
 
                 var options = {
-                    width: 600,
+                    width: 100, //600,
                     height: 240,
                     redFrom: 80,
                     redTo: 100,
@@ -104,7 +105,7 @@
             console.log("1a."); 
             console.log("2a.");
                                     ArData[foundIndex].data.setValue(0, 1, parseInt(value));
-        setInterval(function() {
+/*        setInterval(function() {
             data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
             chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }, 13000);
@@ -117,8 +118,8 @@
             chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         }, 26000);
         console.log("2c.");
-            
-            ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
+  */          
+        ArChart[foundIndex].chart.draw(ArData[foundIndex].data, ArOptions[foundIndex].options);
         console.log("3.");
         }
     };
