@@ -65,7 +65,7 @@
                     greenTo: 55,
                     minorTicks: 5
                 };
-
+                console.log(options.redFrom);
                 ArOptions.push({
                     'id': text,
                     'options': options
