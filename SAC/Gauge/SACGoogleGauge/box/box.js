@@ -66,20 +66,28 @@
                     minorTicks: 5
                 };
                 options.width = 600;
-                options.height = 240;
-                options.redFrom = 80;
-                options.redTo = 100;
-                options.yellowFrom = 55;
-                options.yellowTo = 90;
-                options.greenFrom = 7;
-                options.greenTo =  55;
-                options.minorTicks = 5;
                 console.log("test2b.");
+                options.height = 240;
+                console.log("test2c.");
+                options.redFrom = 80;
+                console.log("test2d.");
+                options.redTo = 100;
+                console.log("test2e.");
+                options.yellowFrom = 55;
+                console.log("test2f.");
+                options.yellowTo = 90;
+                console.log("test2g.");
+                options.greenFrom = 7;
+                console.log("test2h.");
+                options.greenTo =  55;
+                console.log("test2i.");
+                options.minorTicks = 5;
+                console.log("test2j.");
                 console.log(options.redFrom);
                 options.redFrom = 111;
-                console.log("test2c.");
+                console.log("test2k");
                 console.log(options.redFrom);
-                console.log("test2d.");
+                console.log("test2l");
 
                 ArOptions.push({
                     'id': text,
