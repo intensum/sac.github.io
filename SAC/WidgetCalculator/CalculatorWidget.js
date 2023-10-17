@@ -3,7 +3,7 @@
     tmpl.innerHTML = `
         <style>
         .image-container {
-        width: 100%;
+        width: 90%;
         height: 90px;
        }
             .calculator {
@@ -18,7 +18,7 @@
             .display {
                 margin-bottom: 10px;
                 background-color: #fff;
-                height: 30px;
+                height: 10px;
                 border: none;
                 padding: 5px;
                 text-align: right;
