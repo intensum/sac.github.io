@@ -13,14 +13,14 @@
     {
       "kind": "main",
       "tag": "com-fd-djaja-sap-sac-excel",
-      "url": "http://localhost/SAC/sacexcel/excel.js",
+      "url": "https://intensum.github.io/sac.github.io/SAC/sacexcel/excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-fd-djaja-sap-sac-excel-aps",
-      "url": "http://localhost/SAC/sacexcel/aps_excel.js",
+      "url": "https://intensum.github.io/sac.github.io/SAC/sacexcel/aps_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
