@@ -4,7 +4,8 @@
         <style>
         .image-container {
         width: 100%;
-        height: 100px;   
+        height: 100px;
+           
     background-size: cover;
     }
             .calculator {
