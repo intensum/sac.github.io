@@ -3,8 +3,8 @@
     tmpl.innerHTML = `
         <style>
         .image-container {
-        width: 90%;
-        height: 90px;
+        width: 130%;
+        height: 120px;
        }
             .calculator {
                 display: flex;
