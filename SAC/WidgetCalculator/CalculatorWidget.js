@@ -28,7 +28,7 @@
 
        
             </div>
-    <a href="https://www.linkedin.com/company/intensum" target="_blank" class="follow-link">Follow us on Linkedin - Intensum</a>
+    <a href="https://www.linkedin.com/company/intensum" target="_blank" class="follow-link">Follow us on Linkedin - Intensum - The Best</a>
         </div>
     `;
 
