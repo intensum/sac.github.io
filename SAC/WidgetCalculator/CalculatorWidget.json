@@ -1,14 +1,14 @@
 {
-    "name": "calculatorwidget",
+    "name": "calculator",
     "description": "Simple Calculator Widget",
     "newInstancePrefix": "calculatorwidget",
     "eula": "",
-    "vendor": "Planifyit",
+    "vendor": "Intensum",
     "license": "",
     "id": "calculatorwidget",
-    "version": "1.0.1",
+    "version": "0.0.1",
      "icon": "https://planifyit.github.io/Pie_chart/PlanifyIT_Logo2.png",
-    "vendor": "Planifyit",
+    "vendor": "Intensum",
     "webcomponents": [
         {
             "kind": "main",
