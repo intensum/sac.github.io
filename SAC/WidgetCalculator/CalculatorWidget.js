@@ -95,7 +95,7 @@
 
        
             </div>
-    <a href="https://www.linkedin.com/company/planifyit" target="_blank" class="follow-link">Follow us on Linkedin - Planifyit</a>
+    <a href="https://www.linkedin.com/company/intensum" target="_blank" class="follow-link">Follow us on Linkedin - Intensum</a>
         </div>
     `;
 
