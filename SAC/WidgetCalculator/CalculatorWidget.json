@@ -6,8 +6,8 @@
     "vendor": "Intensum",
     "license": "",
     "id": "calculatorintensumwidget",
-    "version": "0.0.8",
-     "icon": "https://intensum.github.io/sac.github.io/SAC/WidgetCalculator/intensum_logo.png",
+    "version": "0.0.9",
+     "icon": "https://intensum.github.io/sac.github.io/SAC/WidgetCalculator/intensum_logo2.png",
     "vendor": "Intensum",
     "webcomponents": [
         {
